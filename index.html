@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login • Kairo System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Etapa1-->
+    <div class="background-login">
+        <form class="login-card" id="loginform">
+            
+            <h1>Login • Kairo System</h1>
+
+            <div class="usuario-acesso" id="etapa-usuario">
+                <label>Informe o usuário</label>
+                <input type="text" id="usuariologin" required>
+            </div>
+
+            <button class="confirmar-usuario" id="btnconfirmar-usuario" type="submit">Confirmar</button>
+            <p class="register">
+                Não possui conta? <a href="#">Registrar-se</a>
+            </p>
+
+            <!--Etapa2 (ocultada inicialmente)-->
+            <div class="senha-acesso" id="etapa-senha" style="display: none;">
+                <input type="password" id="senhalogin" required minlength="6">
+                <button class="btnacesso" id="btn-acessar" type="submit">Acessar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
