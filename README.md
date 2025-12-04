@@ -1,1 +1,1 @@
-# LoginPage - Kairo System
+# Entrada - Kairo System
